@@ -11,4 +11,8 @@ This project is a hello-world project for demonstrating how to use gRPC to commu
 ## References
 
 - [gRPC official website](https://grpc.io/)
-- [gRPC Examples for Python](https://github.com/grpc/grpc/tree/master/examples/python)
+  - [Introduction](https://grpc.io/docs/what-is-grpc/introduction/)
+  - [Core concepts](https://grpc.io/docs/what-is-grpc/core-concepts/)
+  - [Motivation and Design Principles](https://grpc.io/blog/principles/)
+- [gRPC for Python](https://grpc.io/docs/languages/python/)
+  - [gRPC Examples for Python](https://github.com/grpc/grpc/tree/master/examples/python)
