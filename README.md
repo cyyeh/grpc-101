@@ -4,9 +4,10 @@ This project is a hello-world project for demonstrating how to use gRPC to commu
 
 ## Quick Start
 
-- `PROTO_NAME=helloworld make protoc`: It will generate `helloworld_pb2_grpc.py` and `helloworld_pb2.py` inside the grpc folder.
-- `make run`: Initiate the grpc server
-- `make request`: Send a request from client to the grpc server
+1. `pipenv install`: Preparing the python3.7 development environment with required dependencies
+2. `PROTO_NAME=helloworld make protoc`: It will generate `helloworld_pb2_grpc.py` and `helloworld_pb2.py` inside the grpc folder
+3. `make run`: Initiate the grpc server
+4. `make request`: Send a request from client to the grpc server
 
 ## References
 
