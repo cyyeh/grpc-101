@@ -5,9 +5,15 @@ This project is a hello-world project for demonstrating how to use gRPC to commu
 ## Quick Start
 
 1. `pipenv install`: Preparing the python3.7 development environment with required dependencies
-2. `PROTO_NAME=helloworld make protoc`: It will generate `helloworld_pb2_grpc.py` and `helloworld_pb2.py` inside the grpc folder
-3. `make run`: Initiate the grpc server
-4. `make request`: Send a request from client to the grpc server
+2. `PROTO_NAME=greeter make protoc`: It will generate `greeter_pb2_grpc.py` and `greeter_pb2.py` inside the greeter folder
+3. `pipenv run python greeter/greeter_server.py`: Initiate the grpc server
+4. `pipenv run python greeter/greeter_client.py`: Send a request from the client to the grpc server
+
+## See a More Detailed Example Here
+
+1. `PROTO_NAME=route_guide make protoc`: It will generate `route_guide_pb2_grpc.py` and `route_guide_pb2.py` inside the route_guide folder
+2. `pipenv run python route_guide/route_guide_server.py`: Initiate the grpc server
+3. `pipenv run python route_guide/route_guide_client.py`: Send requests from the client to the grpc server
 
 ## General Workflow for Using gRPC
 
